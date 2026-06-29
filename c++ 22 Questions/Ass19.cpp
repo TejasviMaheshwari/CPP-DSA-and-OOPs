@@ -30,7 +30,7 @@ public:
         }
         towerofhanoi(n-1,source , destination,auxiliary);
         cout<<"Move disk "<<n<<" from "<<source<<" to "<<destination<<endl;
-        towerofhanoi(n-1,source,auxiliary,destination);
+        towerofhanoi(n-1,auxiliary,source,destination);
     }
     void MainMenu()
     {
